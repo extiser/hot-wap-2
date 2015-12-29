@@ -1,0 +1,70 @@
+.menu {
+	width: 111px / 310px * 100%;
+	padding: 4px 0;
+
+	border-radius: 3px;
+	background-color: #000;
+	&__item {
+		position: relative;
+
+		display: block;
+
+		box-sizing: border-box;
+		width: 90%;
+		margin: auto;
+		padding: 13px 0 10px 25px;
+
+		text-decoration: none;
+
+		color: #6c6c6c;
+		border-bottom: 1px solid #2e2e2e;
+
+		font-size: 10px;
+
+		@extend .icon;
+		&:first-child {
+			padding-top: 5px;
+		}
+		&:last-child {
+			border-bottom: 0;
+		}
+		&:before {
+			position: absolute;
+			left: 5px;
+
+			color: #ffb32e;
+
+			font-size: 14px;
+		}
+		&--category {
+			@extend .icon-align-justify;
+			a {
+				display: block;
+
+				margin-bottom: 5px;
+
+				text-decoration: none;
+
+				color: #6c6c6c;
+			}
+		}
+		&--search {
+			@extend .icon-search;
+		}
+		&--favorite {
+			@extend .icon-star;
+		}
+		&--best {
+			@extend .icon-prize-award;
+		}
+		&--date {
+			@extend .icon-calendar;
+		}
+		&--movie {
+			@extend .icon-film;
+		}
+		&--settings {
+			@extend .icon-cog-gear;
+		}
+	}
+}

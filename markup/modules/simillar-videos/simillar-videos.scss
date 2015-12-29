@@ -1,0 +1,18 @@
+.simillar-videos {
+	width: 100%;
+	display: flex;
+
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #484848;
+
+	align-items: center;
+	@extend .wrapper;
+	justify-content: space-between;
+	&__item {
+		text-decoration: none;
+
+		line-height: 0;
+	}
+}

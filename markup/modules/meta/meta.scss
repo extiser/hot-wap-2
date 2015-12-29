@@ -1,0 +1,36 @@
+.meta {
+	margin-top: 5px;
+}
+
+.meta-item {
+	box-sizing: border-box;
+	padding: 10px 8px;
+
+	background-color: #484848;
+	&--optimise {
+		display: flex;
+
+		align-items: center;
+		justify-content: space-between;
+	}
+	&--social {
+		margin-top: 5px;
+
+		text-align: center;
+	}
+	&__title {
+		text-transform: uppercase;
+
+		color: #949494;
+
+		font-size: em(9px);
+	}
+	&__os {
+		@include bg($os);
+	}
+	&__social {
+		margin: 10px auto 0;
+
+		@include bg($social);
+	}
+}

@@ -1,0 +1,60 @@
+
+
+.icon:before {
+	font-family: "hot-wap-1" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-align-justify:before {
+	content: "\61";
+}
+.icon-search:before {
+	content: "\62";
+}
+.icon-star:before {
+	content: "\63";
+}
+.icon-prize-award:before {
+	content: "\64";
+}
+.icon-calendar:before {
+	content: "\65";
+}
+.icon-film:before {
+	content: "\66";
+}
+.icon-cog-gear:before {
+	content: "\67";
+}
+.icon-plus-circle:before {
+	content: "\68";
+}
+.icon-share-alt-square:before {
+	content: "\69";
+}
+.icon-ellipsis-h:before {
+	content: "\6a";
+}
+.icon-eye:before {
+	content: "\6b";
+}
+.icon-thumbs-o-up:before {
+	content: "\6c";
+}
+.icon-android:before {
+	content: "\6d";
+}
+.icon-apple:before {
+	content: "\6e";
+}
+.icon-windows:before {
+	content: "\6f";
+}

@@ -1,0 +1,58 @@
+.right {
+	width: 195px / 310px * 100%;
+}
+
+.video-meta {
+	display: flex;
+
+	padding: 10px 10px 5px;
+
+	background-color: #000;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__item {
+		position: relative;
+
+		box-sizing: border-box;
+		width: 50%;
+		margin-bottom: 4px;
+		padding-left: 14px;
+
+		color: #666;
+
+		font-size: 12px;
+
+		@extend .icon;
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		&:nth-child(even) {
+			text-align: right;
+		}
+		&--add {
+			@extend .icon-plus-circle;
+		}
+		&--views {
+			@extend .icon-eye;
+			&:before {
+				right: 30px;
+			}
+		}
+		&--share {
+			@extend .icon-share-alt-square;
+		}
+		&--likes {
+			@extend .icon-thumbs-o-up;
+			&:before {
+				right: 30px;
+			}
+		}
+		&--any {
+			@extend .icon-ellipsis-h;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.header {
+	display: flex;
+
+	margin-bottom: 10px;
+	padding-top: 15px;
+
+	align-items: center;
+	@extend .wrapper;
+	justify-content: space-between;
+	background-color: #434343;
+	padding-bottom: 20px;
+	&__logo {
+		display: block;
+
+		@include bg($logo);
+	}
+	&__18 {
+		@include bg($age);
+	}
+}

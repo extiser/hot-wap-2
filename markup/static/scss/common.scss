@@ -1,0 +1,27 @@
+// Common styles of the project
+
+html,
+body {
+	overflow-x: hidden;
+
+	background-color: #2a2a2a;
+
+	font-family: "Arial";
+}
+
+.wrapper {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 768px;
+	margin: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.main {
+	display: flex;
+
+	align-items: flex-start;
+	@extend .wrapper;
+	justify-content: space-between;
+}
